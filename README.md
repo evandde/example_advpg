@@ -38,12 +38,14 @@ src/ICRP07Manager.cc
 - AdvancedParticleGun::SetTargetVolume(G4String targetVolName, G4double margin = 0.) function sets a G4PVPlacement object named *targetVolName* to be a target.
   - Primary particle directions will be sampled uniformly & isotropically within conical solid angle that completely surrounds the target volume (+ margin).
   - The *targetVolName* must be unique.
+  - The particle weight (biasing) will be multiplied by *solid angle / 4pi*.
 - AdvancedParticleGun::SetNuclideSource(G4String nuclideName) function sets a nuclide to be a gamma-ray primary source term.
   - The gamma-rays from the nuclide will be set to be primary particles, corresponding to the yield and decay chain (fractions of daughter nuclides) described in ICRP107.
+  - *nuclideName* must be written in the following form: "Cs-137", "Co-60", ...
   - The function only considers photons (X-rays, gamma-rays, annihilation photons).
   - Users can set minimum energy of primary photons by using AdvancedParticleGun::SetMinPhotonEnergy(G4double minPhotonEnergy) in order to ignore production of low energy X-rays (e.g. a few keV X-rays).
+  - The particle weight (biasing) will be multiplied by *total yield*.
   - The function does NOT consider half-lives of daughter nuclides, so that the actual activities of the daughter nuclides in real case might be different.
-
 
 
 ## How To Use
