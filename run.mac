@@ -1,0 +1,10 @@
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run.mac
+
+# Verbose
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 0
+
+/run/beamOn 1000
