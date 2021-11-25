@@ -60,3 +60,17 @@ src/ICRP07Manager.cc
    - src/ICRP07Manager.cc
 2. In your own class derived from G4VUserPrimaryGeneratorAction class, replace G4ParticleGun* type class member to AdvancedParticleGun* type one.
 3. That's all! Have fun.
+
+
+## License
+The files in `ICRP07DATA` directory is from ICRP 107 copyright 2008 Eckerman and Endo. This data is provided with the following text in the license.txt file:
+
+ICRP-07 Data Files Copyright Notice
+
+Copyright (C) 2008 A. Endo and K.F. Eckerman, Authors. All Rights Reserved.
+
+Permission is hereby granted to any person obtaining a copies of the ICRP-07 data files and associated documentation to use, copy, and distribute these materials and the documentation for educational, research, and not-for-profit purposes, without fee and without a signed licensing agreement provided that the file LICENSE.TXT containing the above copyright notice, this paragraph and the following two paragraphs appears in all copies, modifications, and distributions.
+
+IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THE SOFTWARE, ITS DATA FILES, AND THE DOCUMENTATION.
+
+THE AUTHORS SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE, DATA FILES AND ACCOMPANYING DOCUMENTATION PROVIDED HEREUNDER IS PROVIDED "AS IS". THE AUTHORS HAVE NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, FUTURE UPDATES, ENHANCEMENTS, OR MODIFICATIONS TO THE SOFTWARE.
