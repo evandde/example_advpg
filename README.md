@@ -63,6 +63,11 @@ src/ICRP07Manager.cc
 
 
 ## License
+
+Copyright (c) 2021, Evan Kim (evandde@gmail.com)
+
+All files except `ICRP07DATA` directory and its inside are licensed under a Creative Commons license: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
 The files in `ICRP07DATA` directory is from ICRP 107 copyright 2008 Eckerman and Endo. This data is provided with the following text in the license.txt file:
 
 ICRP-07 Data Files Copyright Notice
