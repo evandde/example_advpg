@@ -1,6 +1,8 @@
 # AdvancedParticleGun
 Advanced Particle Gun class for Geant4.
 
+![00_advpg](https://user-images.githubusercontent.com/57508537/143521347-45f58b5a-6c66-406f-ad0f-df9e7c75c4f4.gif)
+
 한국어 설명: https://evandde.github.io/advancedparticlegun/
 
 
