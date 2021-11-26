@@ -1,6 +1,9 @@
 # AdvancedParticleGun
 Advanced Particle Gun class for Geant4.
 
+한국어 설명: https://evandde.github.io/advancedparticlegun/
+
+
 
 
 ## Purpose
